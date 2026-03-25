@@ -8,7 +8,7 @@ class User:
     return len(self.password)
 
   def __str__(self):
-    userString = ""
+    userString: str = ""
     
     userString += f"Email: {self.email}\n"
     userString += f"Username: {self.username}\n"
